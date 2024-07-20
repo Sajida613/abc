@@ -1,9 +1,9 @@
-x = int(input("guess a numer between 1 to 10\n"))
+x = int(input("enter the number 1 to 10\n"))
 while True: 
     
     if x == 10:
-        print("you won!")
+        print("yes!")
         break
     else:
-        print("you loss!") 
+        print("no!") 
         break
